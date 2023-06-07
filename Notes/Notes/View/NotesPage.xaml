@@ -9,7 +9,7 @@
                 Placeholder="Enter your note"
                 HeightRequest="100" />
         <!-- Layout children in two columns -->
-        <Grid ColumnDefinitions=",">
+        <Grid ColumnDefinitions="*,*">
             <Button Text="Save"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
